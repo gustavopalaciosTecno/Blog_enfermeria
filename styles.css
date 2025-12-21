@@ -6,7 +6,7 @@
     --accent-color: #e53e3e;
     --background-color: #121212;
     --card-background: #1e1e1e;
-    --text-color: #f0f0f0;
+    --text-color: #efeaea;
     --text-secondary: #b0b0b0;
     --border-color: #333;
     --shadow-color: rgba(0, 0, 0, 0.5);
@@ -477,7 +477,7 @@ header .container {
 .form-group textarea {
     width: 100%;
     padding: 12px 15px;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgb(0, 0, 0);
     border: 1px solid var(--border-color);
     border-radius: 4px;
     color: var(--text-color);
