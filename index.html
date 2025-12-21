@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enfermería Profesional - Cuidados de Salud</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cabecera y navegación -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-stethoscope"></i>
+                <h1>Enfermería<span>Profesional</span></h1>
+            </div>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#inicio" class="active">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button id="theme-toggle" class="btn-theme">
+                    <i class="fas fa-palette"></i> Cambiar Estilo
+                </button>
+                <button class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección Inicio con Carrusel -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h2>Cuidados de Enfermería Profesionales</h2>
+                <p>Brindando atención médica de calidad con calidez humana y experiencia</p>
+                <a href="#contacto" class="btn-primary">Solicitar Consulta</a>
+            </div>
+            
+            <!-- Carrusel de imágenes -->
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slide active">
+                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Enfermera cuidando a un paciente">
+                        <div class="carousel-caption">
+                            <h3>Atención Personalizada</h3>
+                            <p>Cuidados adaptados a las necesidades específicas de cada paciente</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/geriatrico.jpg" alt="Enfermera tomando signos vitales">
+                        <div class="carousel-caption">
+                            <h3>Control de Signos Vitales</h3>
+                            <p>Monitoreo profesional de temperatura, presión arterial y más</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/paliativo.jpg" alt="Enfermera administrando medicamentos">
+                        <div class="carousel-caption">
+                            <h3>Administración de Medicamentos</h3>
+                            <p>Precisión y seguimiento en la aplicación de tratamientos</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-btn prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                
+                <div class="carousel-indicators">
+                    <span class="indicator active" data-slide="0"></span>
+                    <span class="indicator" data-slide="1"></span>
+                    <span class="indicator" data-slide="2"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Sobre Mí -->
+        <section id="sobre-mi" class="section">
+            <div class="container">
+                <h2 class="section-title">Sobre Mí</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1594824434340-7e7dfc37cabb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Enfermera profesional">
+                    </div>
+                    <div class="about-text">
+                        <h3>Johana Itatí Rodriguez, Enfermera Profesional</h3>
+                        <p>Con más de 5 años de experiencia en el campo de la enfermería, me he especializado en cuidados a domicilio, atención geriátrica y cuidados postoperatorios. Mi enfoque se centra en proporcionar atención integral que combine los aspectos técnicos de la medicina con el trato humano y empático que cada paciente merece.</p>
+                        <p>Estoy comprometida con la actualización constante en las mejores prácticas de enfermería, habiendo realizado diversos cursos de especialización en cuidados intensivos, terapia intravenosa y manejo del dolor.</p>
+                        
+                        <div class="qualifications">
+                            <div class="qualification">
+                                <i class="fas fa-graduation-cap"></i>
+                                <h4>Licenciada en Enfermería</h4>
+                                <p>Universidad de Ciencias Médicas</p>
+                            </div>
+                            <div class="qualification">
+                                <i class="fas fa-award"></i>
+                                <h4>Certificación en Cuidados Intensivos</h4>
+                                <p>Colegio de Enfermería</p>
+                            </div>
+                            <div class="qualification">
+                                <i class="fas fa-star"></i>
+                                <h4>12+ Años de Experiencia</h4>
+                                <p>Hospitales y atención domiciliaria</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Portafolio -->
+        <section id="portafolio" class="section">
+            <div class="container">
+                <h2 class="section-title">Portafolio</h2>
+                <p class="section-subtitle">Algunos de los servicios y casos en los que he participado</p>
+                
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80" alt="Cuidados domiciliarios">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Cuidados Domiciliarios</h3>
+                            <p>Atención personalizada a pacientes en la comodidad de su hogar, incluyendo administración de medicamentos, curaciones y monitoreo de signos vitales.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1535914254987-b9e5c5e48b57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Atención geriátrica">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Atención Geriátrica</h3>
+                            <p>Cuidados especializados para adultos mayores, con enfoque en la prevención de complicaciones y mejora de la calidad de vida.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80" alt="Cuidados postoperatorios">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Cuidados Postoperatorios</h3>
+                            <p>Seguimiento y atención después de procedimientos quirúrgicos, incluyendo manejo del dolor, cuidado de heridas y rehabilitación.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Servicios -->
+        <section id="servicios" class="section">
+            <div class="container">
+                <h2 class="section-title">Servicios</h2>
+                <p class="section-subtitle">Ofrezco una amplia gama de servicios de enfermería profesional</p>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3>Cuidados a Domicilio</h3>
+                        <p>Atención personalizada en el hogar del paciente, incluyendo administración de medicamentos, curaciones y seguimiento de tratamientos.</p>
+                        <ul class="service-features">
+                            <li>Visitas programadas</li>
+                            <li>Monitoreo de signos vitales</li>
+                            <li>Atención 24/7 en casos urgentes</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <h3>Atención Geriátrica</h3>
+                        <p>Cuidados especializados para adultos mayores, con enfoque en la prevención de caídas, manejo de medicación y acompañamiento.</p>
+                        <ul class="service-features">
+                            <li>Evaluación geriátrica integral</li>
+                            <li>Prevención de úlceras por presión</li>
+                            <li>Estimulación cognitiva</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-procedures"></i>
+                        </div>
+                        <h3>Cuidados Postoperatorios</h3>
+                        <p>Seguimiento y atención después de cirugías, incluyendo manejo del dolor, cuidado de heridas y rehabilitación temprana.</p>
+                        <ul class="service-features">
+                            <li>Manejo del dolor</li>
+                            <li>Curación de heridas quirúrgicas</li>
+                            <li>Educación para el autocuidado</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-syringe"></i>
+                        </div>
+                        <h3>Administración de Medicamentos</h3>
+                        <p>Aplicación segura y precisa de medicamentos por vía oral, intramuscular, intravenosa y subcutánea según prescripción médica.</p>
+                        <ul class="service-features">
+                            <li>Preparación de medicamentos</li>
+                            <li>Seguimiento de efectos secundarios</li>
+                            <li>Registro detallado de administración</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto" class="section">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <p class="section-subtitle">Ponte en contacto para programar una consulta o resolver tus dudas</p>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Ubicación</h4>
+                                <p>Calle Salud 123, Colonia Médica, Ciudad</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Teléfono</h4>
+                                <p>+52 55 1234 5678</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Correo Electrónico</h4>
+                                <p>contacto@enfermeriaprofesional.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Horario de Atención</h4>
+                                <p>Lunes a Viernes: 8:00 am - 6:00 pm</p>
+                                <p>Sábados: 9:00 am - 1:00 pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Nombre completo" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="email" id="email" placeholder="Correo electrónico" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="tel" id="phone" placeholder="Teléfono">
+                            </div>
+                            
+                            <div class="form-group">
+                                <select id="service" required>
+                                    <option value="" disabled selected>Selecciona un servicio</option>
+                                    <option value="domicilio">Cuidados a Domicilio</option>
+                                    <option value="geriatria">Atención Geriátrica</option>
+                                    <option value="postoperatorio">Cuidados Postoperatorios</option>
+                                    <option value="medicamentos">Administración de Medicamentos</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <textarea id="message" rows="5" placeholder="Mensaje" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn-primary">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-stethoscope"></i>
+                    <h3>Enfermería<span>Profesional</span></h3>
+                    <p>Cuidados de salud con calidad y calidez humana</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre-mi">Sobre Mí</a></li>
+                        <li><a href="#portafolio">Portafolio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Sígueme</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    
+                    <div class="theme-selector">
+                        <p>Cambiar tema:</p>
+                        <div class="theme-options">
+                            <button class="theme-option" data-theme="dark">Oscuro</button>
+                            <button class="theme-option" data-theme="light">Claro</button>
+                            <button class="theme-option" data-theme="blue">Azul</button>
+                            <button class="theme-option" data-theme="green">Verde</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Enfermería Profesional. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
